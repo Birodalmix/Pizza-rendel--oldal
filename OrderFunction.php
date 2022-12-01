@@ -28,7 +28,4 @@ if (isset($_SESSION["userid"])) {
         }
         </script>';
 }
-
-
-
 ?>
