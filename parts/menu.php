@@ -9,7 +9,7 @@ if(isset($_SESSION["username"])){
       }
     echo "<button onclick=logout()>Kijelentkezés <img src=images/logout-in.png alt=home icon width=18 height=18></button>";
 }else{
-echo "<a href=Registration.php><img src=images/profie.png alt=home icon width=18 height=18> Regisztráció</a>";
+echo "<a href=Registration.php><img src=images/profile.png alt=home icon width=18 height=18> Regisztráció</a>";
 ?>
       <button data-modal-target="#modal">Bejelentkezés <img src=images/logout-in.png alt=home icon width=18 height=18></button>
       <div class="modal" id="modal">
@@ -20,7 +20,7 @@ echo "<a href=Registration.php><img src=images/profie.png alt=home icon width=18
     <div class="modal-body">
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
       <form class="modal-content animate" action="/action_page.php">
-         <div class="container" style="background-color: #Ba181b;">
+         <div class="container" style="background-color: #343A40;">
             <input type="text" name="username" placeholder="Felhasználónév" required><br>
             <input type="password" name="password" placeholder="Jelszó" required>
             <button type="submit" name="user">Bejelentkezés</button>
