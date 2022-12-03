@@ -10,6 +10,7 @@ footer {
   color: #F8F9FA;
   background-color: #212529;
 }
+
 /*-------------------------- Add a STYLE to the TOP navigation ------------------------------------------*/
 .topnav {
   border-radius: 8px;
@@ -606,7 +607,8 @@ h2 {
   text-align: center;
   color: #e2e6e0;
 }
-#orderBox{
+
+#orderBox {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5);
@@ -616,7 +618,8 @@ h2 {
   background-color: none;
   max-width: 100%;
 }
-.orderdisplay{
+
+.orderdisplay {
   background-color: #495057;
   color: #F8F9FA;
   border: solid 1px;
