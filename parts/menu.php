@@ -7,11 +7,11 @@ if(isset($_SESSION["username"])){
     if($_SESSION["isadmin"]){
       require("parts/AdminMenu.php");
       }
-    echo "<button onclick=logout()><img src=images/logout-in.png alt=home icon width=18 height=18> Kijelentkezés</button>";
+    echo "<button onclick=logout()>Kijelentkezés <img src=images/logout-in.png alt=home icon width=18 height=18></button>";
 }else{
 echo "<a href=Registration.php><img src=images/profie.png alt=home icon width=18 height=18> Regisztráció</a>";
 ?>
-      <button data-modal-target="#modal"><img src=images/logout-in.png alt=home icon width=18 height=18> Bejelentkezés</button>
+      <button data-modal-target="#modal">Bejelentkezés <img src=images/logout-in.png alt=home icon width=18 height=18></button>
       <div class="modal" id="modal">
       <div class="modal-header">
       <div class="title">Bejelentkezés</div>
