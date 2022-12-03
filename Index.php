@@ -5,10 +5,9 @@ require_once("DatabaseParts/User_Login_verification.php");
 require_once("parts/htmlTop.php");
 require_once("parts/menu.php");
 ?>
-
 <script src="cart.js" defer></script>
 
-<input type="text" id="search-input" placeholder="Keresés..." class="stickyHeader">
+<input type="text" id="search-input" placeholder="Keresés..." class="stickyHeader"> <img src="images/search.png" alt="home icon" width="30" height="30">
 
 <div id="content">
     <?php require("DatabaseParts/Pizza_display.php"); ?>

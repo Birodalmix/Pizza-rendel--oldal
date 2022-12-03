@@ -1,6 +1,4 @@
 <?php
-     echo "<a href=AdminInProgress.php>Új rendelések</a>
-      <a href=AdminFinished.php>Teljesített rendelések</a>
-      <a href=AdminUserSettings.php>Felhasználói profilok</a>
-      <a href=MenuSettings.php>Pizzák kezelése</a>";
+     echo "<a href=AdminInProgress.php><img src=images/list.png alt=home icon width=20 height=20> Új rendelések</a>
+      <a href=AdminFinished.php><img src=images/finishedlist.png alt=home icon width=20 height=20> Teljesített rendelések</a>";
 ?>

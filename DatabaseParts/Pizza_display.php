@@ -20,7 +20,7 @@ try {
         echo "<span class=leiras>".$row["description"]."</span>";
         echo "<br>";
         echo "<div class=price>" . $row["price"] . " Ft</div>";
-        echo "<button class=more>Kosárba</button>";
+        echo "<button class=more><img src=images/cart.png alt=home icon width=18 height=18> Kosárba</button>";
         echo "</div>";
     }
 } catch (PDOException $e) {

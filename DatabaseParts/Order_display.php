@@ -27,7 +27,7 @@ try {
                     while ($row = $queryKeres->fetch(PDO::FETCH_ASSOC)) {
                         echo "<div class=oderdisplay >";
                         echo $orderid . "<br>";
-                        echo "név: " . $firstname . " " . $lastname . " cél: " . $zipcode . " " . $city . " " . $street . " telefon: " . $phone . "<br>";
+                        echo "név: " . $firstname . " " . $lastname . " cél: " . $zipcode . " " . $city . " " . $street . " telefon: " . $phone . "<br> \n";
                     }
                 }
             } catch (PDOException $e) {

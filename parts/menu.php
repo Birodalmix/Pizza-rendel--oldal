@@ -1,17 +1,17 @@
 <nav>
 <div class="topnav">
-    <a href="Index.php">Főoldal</a>
+    <a href="Index.php"><img src="images/home.png" alt="home icon" width="18" height="18"> Főoldal</a>
 <?php
 if(isset($_SESSION["username"])){
-    echo "<a href=Profile.php>Profil</a>";
+    echo "<a href=Profile.php><img src=images/profile.png alt=home icon width=18 height=18> Profil</a>";
     if($_SESSION["isadmin"]){
       require("parts/AdminMenu.php");
       }
-    echo "<button onclick=logout()>Kijelentkezés</button>";
+    echo "<button onclick=logout()><img src=images/logout-in.png alt=home icon width=18 height=18> Kijelentkezés</button>";
 }else{
-echo "<a href=Registration.php>Regisztráció</a>";
+echo "<a href=Registration.php><img src=images/profie.png alt=home icon width=18 height=18> Regisztráció</a>";
 ?>
-      <button data-modal-target="#modal">Bejelentkezés</button>
+      <button data-modal-target="#modal"><img src=images/logout-in.png alt=home icon width=18 height=18> Bejelentkezés</button>
       <div class="modal" id="modal">
       <div class="modal-header">
       <div class="title">Bejelentkezés</div>
